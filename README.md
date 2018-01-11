@@ -11,7 +11,7 @@ User submits an author name or a keyword with other parameters (number of articl
 
 <a href="https://www.youtube.com/watch?v=jXctQUTaPcY" target="_blank"><img src="pubmed_top_authors.png" alt="pubmed_authors" style="float:left" /></a>
 
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br /><br />
 
 
 #### Languages, packages and framework used
