@@ -13,24 +13,23 @@ User submits an author name or a keyword with other parameters (number of articl
 
 
 #### Languages, packages and framework used
-- Backend
+* Backend
    * Python (Flask)
    * SQLite3 (via Python's SQLALchemy)
-- Frontend
+* Frontend
    * HTML
    * CSS
    * JavaScript (D3.js, jQuery, jQueryUI, Bootstrap, typeahead, handlebars)
 
 #### Technical notes
 
-- Backend
+* Backend
     * Auto-update database at regular interval (not fully tested)
         * Scrape using Pubmed's API
         * Extract info from XML and save it into SQLite3 database (should be replaced by PostgreSQL)
     * Upon receipt of search request from frontend, query either SQLite3 database or [Pubmed API](https://www.ncbi.nlm.nih.gov/books/NBK25501/).
     * Send data to frontend
-
-- Frontend
+* Frontend
     * Rearrange data
     * Draw interactive plots using D3.js
 
