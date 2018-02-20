@@ -62,9 +62,11 @@ User submits an author name or a keyword with other parameters (number of articl
 * Step 4: Working with Data Sources
     * SQL Fundamentals
         * [Analyzing CIA Factbook Data Using SQLite and Python](https://github.com/gknam/dataquest_projects/blob/master/DataScientist/Step4_WorkingWithDataSources/2_SQLfundamentals/project1/AnalyzingCIAfactbookDataUsingSQLiteAndPython.ipynb)
-    * SQL and Databases: Intermediate
+    * SQL and Databases: Intermediate (old)
         * [Preparing data for SQLite](https://github.com/gknam/dataquest_projects/blob/master/DataScientist/Step4_WorkingWithDataSources/3_SQLAndDatabases-Intermediate/project1/PreparingDataForSQLite.ipynb)
         * [Creating relations in SQLite](https://github.com/gknam/dataquest_projects/blob/master/DataScientist/Step4_WorkingWithDataSources/3_SQLAndDatabases-Intermediate/project2/CreatingRelationsInSQLite.ipynb)
+    * SQL and Databases: Intermediate (new)
+        * [Answering Business Questions using SQL](https://github.com/gknam/dataquest_projects/blob/master/DataScientist/Step4_WorkingWithDataSources/2_SQLIntermediate-TableRelationsAndJoins/project1/AnsweringBusinessQuestionsUsingSQL.ipynb)
 * Step 5: Probability and Statistics
     * Probability and Statistics in Python: Beginner
         * [Analyzing Movie Reviews](https://github.com/gknam/dataquest_projects/blob/master/DataScientist/Step5_ProbabilityAndStatistics/1_ProbabilityAndStatisticsInPython-Beginner/project1/AnalyzingMovieReviews.ipynb)
