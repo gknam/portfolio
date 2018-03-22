@@ -73,3 +73,6 @@ User submits an author name or a keyword with other parameters (number of articl
         * [Analyzing Movie Reviews](https://github.com/gknam/dataquest_projects/blob/master/DataScientist/Step5_ProbabilityAndStatistics/1_ProbabilityAndStatisticsInPython-Beginner/project1/AnalyzingMovieReviews.ipynb)
     * Probability and Statistics in Python: Intermediate
     	* [Winning Jeopardy](https://github.com/gknam/dataquest_projects/blob/master/DataScientist/Step5_ProbabilityAndStatistics/2_ProbabilityAndStatisticsInPython-Intermediate/project1/WinningJeopardy.ipynb)
+* Step 6: Machine Learning
+    * Machine Learning Fundamentals
+        * [Predicting Car Prices](https://github.com/gknam/dataquest_projects/blob/master/DataScientist/Step6_MachineLearning/1_MachineLearningFundamentals/project1/PredictingCarPrices.ipynb)
