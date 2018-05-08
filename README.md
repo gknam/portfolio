@@ -76,3 +76,5 @@ User submits an author name or a keyword with other parameters (number of articl
 * Step 6: Machine Learning
     * Machine Learning Fundamentals
         * [Predicting Car Prices](https://github.com/gknam/dataquest_projects/blob/master/DataScientist/Step6_MachineLearning/1_MachineLearningFundamentals/project1/PredictingCarPrices.ipynb)
+    * Linear Regression For Machine Learning
+        * [Predicting House Sale Prices](https://github.com/gknam/dataquest_projects/blob/master/DataScientist/Step6_MachineLearning/4_LinearRegressionForMachineLearning/project1/PredictingHouseSalePrices.ipynb)
