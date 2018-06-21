@@ -80,3 +80,5 @@ User submits an author name or a keyword with other parameters (number of articl
         * [Predicting House Sale Prices](https://github.com/gknam/dataquest_projects/blob/master/DataScientist/Step6_MachineLearning/4_LinearRegressionForMachineLearning/project1/PredictingHouseSalePrices.ipynb)
     * Machine Learning in Python: Intermediate
         * [Predicting the stock market](https://github.com/gknam/dataquest_projects/blob/master/DataScientist/Step6_MachineLearning/5_MachineLearningInPython-Intermediate/project1/PredictingTheStockMarket.ipynb)
+    * Decision Trees
+        * [Predicting Bike Rentals](https://github.com/gknam/dataquest_projects/blob/master/DataScientist/Step6_MachineLearning/6_DecisionTrees/project1/PredictingBikeRentals.ipynb)
