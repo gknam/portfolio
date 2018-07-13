@@ -82,3 +82,5 @@ User submits an author name or a keyword with other parameters (number of articl
         * [Predicting the stock market](https://github.com/gknam/dataquest_projects/blob/master/DataScientist/Step6_MachineLearning/5_MachineLearningInPython-Intermediate/project1/PredictingTheStockMarket.ipynb)
     * Decision Trees
         * [Predicting Bike Rentals](https://github.com/gknam/dataquest_projects/blob/master/DataScientist/Step6_MachineLearning/6_DecisionTrees/project1/PredictingBikeRentals.ipynb)
+    * Data Structures and Algorithms
+        * [Efficiencies of matrix search strategies](https://github.com/gknam/dataquest_projects/blob/master/DataScientist/Step7_AdvancedPythonAndComputerScience/1_DataStructuresAndAlgorithms/project1/EfficienciesOfMatrixSearchStrategies.ipynb)
