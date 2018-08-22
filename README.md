@@ -70,9 +70,9 @@ User submits an author name or a keyword with other parameters (number of articl
         * [Designing and Creating a Database](https://github.com/gknam/dataquest_projects/blob/master/DataScientist/Step4_WorkingWithDataSources/2_SQLIntermediate-TableRelationsAndJoins/project2/DesigningAndCreatingDatabase.ipynb)
 * Step 5: Probability and Statistics
     * Probability and Statistics in Python: Beginner
-        * [Analyzing Movie Reviews](https://github.com/gknam/dataquest_projects/blob/master/DataScientist/Step5_ProbabilityAndStatistics/1_ProbabilityAndStatisticsInPython-Beginner/project1/AnalyzingMovieReviews.ipynb)
+        * [Analyzing Movie Reviews](https://github.com/gknam/dataquest_projects/blob/master/DataScientist/Step5_ProbabilityAndStatistics/Old_1_ProbabilityAndStatisticsInPython-Beginner/project1/AnalyzingMovieReviews.ipynb)
     * Probability and Statistics in Python: Intermediate
-    	* [Winning Jeopardy](https://github.com/gknam/dataquest_projects/blob/master/DataScientist/Step5_ProbabilityAndStatistics/2_ProbabilityAndStatisticsInPython-Intermediate/project1/WinningJeopardy.ipynb)
+    	* [Winning Jeopardy](https://github.com/gknam/dataquest_projects/blob/master/DataScientist/Step5_ProbabilityAndStatistics/3_ProbabilityAndStatisticsInPython-Intermediate/project1/WinningJeopardy.ipynb)
 * Step 6: Machine Learning
     * Machine Learning Fundamentals
         * [Predicting Car Prices](https://github.com/gknam/dataquest_projects/blob/master/DataScientist/Step6_MachineLearning/1_MachineLearningFundamentals/project1/PredictingCarPrices.ipynb)
