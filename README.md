@@ -69,6 +69,8 @@ User submits an author name or a keyword with other parameters (number of articl
         * [Answering Business Questions using SQL](https://github.com/gknam/dataquest_projects/blob/master/DataScientist/Step4_WorkingWithDataSources/2_SQLIntermediate-TableRelationsAndJoins/project1/AnsweringBusinessQuestionsUsingSQL.ipynb)
         * [Designing and Creating a Database](https://github.com/gknam/dataquest_projects/blob/master/DataScientist/Step4_WorkingWithDataSources/2_SQLIntermediate-TableRelationsAndJoins/project2/DesigningAndCreatingDatabase.ipynb)
 * Step 5: Probability and Statistics
+    * Statistics Fundamentals
+        * [Investigating Fandango Movie Ratings](https://github.com/gknam/dataquest_projects/blob/master/DataScientist/Step5_ProbabilityAndStatistics/1_StatisticsFundamentals/project1/InvestigatingFandangoMovieRatings.ipynb)
     * Probability and Statistics in Python: Beginner
         * [Analyzing Movie Reviews](https://github.com/gknam/dataquest_projects/blob/master/DataScientist/Step5_ProbabilityAndStatistics/Old_1_ProbabilityAndStatisticsInPython-Beginner/project1/AnalyzingMovieReviews.ipynb)
     * Probability and Statistics in Python: Intermediate
