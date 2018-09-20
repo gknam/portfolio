@@ -71,6 +71,8 @@ User submits an author name or a keyword with other parameters (number of articl
 * Step 5: Probability and Statistics
     * Statistics Fundamentals
         * [Investigating Fandango Movie Ratings](https://github.com/gknam/dataquest_projects/blob/master/DataScientist/Step5_ProbabilityAndStatistics/1_StatisticsFundamentals/project1/InvestigatingFandangoMovieRatings.ipynb)
+    * Statistics Intermediate: Averages and Variability
+        * [Finding the Best Markets to Advertise In](https://github.com/gknam/dataquest_projects/blob/master/DataScientist/Step5_ProbabilityAndStatistics/2_StatisticsIntermediate-AveragesAndVariability/project1/FindingTheBestMarketsToAdvertiseIn.ipynb)
     * Probability and Statistics in Python: Beginner
         * [Analyzing Movie Reviews](https://github.com/gknam/dataquest_projects/blob/master/DataScientist/Step5_ProbabilityAndStatistics/Old_1_ProbabilityAndStatisticsInPython-Beginner/project1/AnalyzingMovieReviews.ipynb)
     * Probability and Statistics in Python: Intermediate
