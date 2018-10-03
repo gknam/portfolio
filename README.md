@@ -45,8 +45,8 @@ User submits an author name or a keyword with other parameters (number of articl
     * Python Programming: Intermediate
         * [Exploring Gun Deaths in the US](https://github.com/gknam/dataquest_projects/blob/master/DataScientist/Step1_PythonIntro/2_PythonIntermediate/project1/ExploringGunDeathsInTheUS.ipynb)
 * Step 2: Data Analysis and Visualization
-    * Data Analysis with Pandas: Intermediate
-        * [Analyzing Thanksgiving Dinner](https://github.com/gknam/dataquest_projects/blob/master/DataScientist/Step2_DataAnalVis/1_pandas/project1/AnalyzingThanksgivingDinner.ipynb)
+    * Pandas and NumPy Fundamentals
+        * [Analyzing Thanksgiving Dinner](https://github.com/gknam/dataquest_projects/blob/master/DataScientist/Step2_DataAnalVis/1_PandasAndNumPyFundamentals/Old_Before20180921/project1/AnalyzingThanksgivingDinner.ipynb)
     * Exploratory Data Visualization
         * [Visualizing Earnings Based On College Majors](https://github.com/gknam/dataquest_projects/blob/master/DataScientist/Step2_DataAnalVis/2_dataAnalVis/project1/Visualizing_Earnings_Based_On_College_Majors.ipynb)
     * Storytelling Through Data Visualization
