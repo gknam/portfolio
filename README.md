@@ -64,8 +64,8 @@ User submits an author name or a keyword with other parameters (number of articl
     * SQL Fundamentals
         * [Analyzing CIA Factbook Data Using SQLite and Python](https://github.com/gknam/projects/blob/master/DataScience/DataQuest/Step4_WorkingWithDataSources/2_SQLfundamentals/project1/AnalyzingCIAfactbookDataUsingSQLiteAndPython.ipynb)
     * SQL and Databases: Intermediate (old)
-        * [Preparing data for SQLite](https://github.com/gknam/projects/blob/master/DataScience/DataQuest/Step4_WorkingWithDataSources/3_SQLAndDatabases-Intermediate/project1/PreparingDataForSQLite.ipynb)
-        * [Creating relations in SQLite](https://github.com/gknam/projects/blob/master/DataScience/DataQuest/Step4_WorkingWithDataSources/3_SQLAndDatabases-Intermediate/project2/CreatingRelationsInSQLite.ipynb)
+        * [Preparing data for SQLite](https://github.com/gknam/projects/blob/master/DataScience/DataQuest/Step4_WorkingWithDataSources/Old_3_SQLAndDatabases-Intermediate/project1/PreparingDataForSQLite.ipynb)
+        * [Creating relations in SQLite](https://github.com/gknam/projects/blob/master/DataScience/DataQuest/Step4_WorkingWithDataSources/Old_3_SQLAndDatabases-Intermediate/project2/CreatingRelationsInSQLite.ipynb)
     * SQL and Databases: Intermediate (new)
         * [Answering Business Questions using SQL](https://github.com/gknam/projects/blob/master/DataScience/DataQuest/Step4_WorkingWithDataSources/2_SQLIntermediate-TableRelationsAndJoins/project1/AnsweringBusinessQuestionsUsingSQL.ipynb)
         * [Designing and Creating a Database](https://github.com/gknam/projects/blob/master/DataScience/DataQuest/Step4_WorkingWithDataSources/2_SQLIntermediate-TableRelationsAndJoins/project2/DesigningAndCreatingDatabase.ipynb)
