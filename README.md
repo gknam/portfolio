@@ -36,7 +36,7 @@ User submits an author name or a keyword with other parameters (number of articl
         * Fetch data from Pubmed
         * [ETL](https://en.wikipedia.org/wiki/Extract,_transform,_load) data
             * E: Relevant elements (i.e. information) are  **_extracted_** using [**xml.etree.ElementTree**](https://docs.python.org/3/library/xml.etree.elementtree.html), 
-            * T: **_transformed_**  into a Python data type (e.g. set (https://docs.python.org/2/library/sets.html))
+            * T: **_transformed_**  into a Python data type (e.g. [set](https://docs.python.org/2/library/sets.html))
             * L: **_loaded_** into the DB using  **SQLite**  and [SQLAlchemy](https://www.sqlalchemy.org/)
     * Upon receipt of search request from front-end, query either SQLite3 database or [Pubmed API](https://www.ncbi.nlm.nih.gov/books/NBK25501/).
     * Send data to front-end in JSON format
