@@ -14,8 +14,9 @@ User submits an author name or a keyword with other parameters (number of articl
 
 #### Languages, packages and framework used
 * Backend
-   * Python (Flask)
-   * SQLite3 (via Python's SQLALchemy)
+   * Python
+       * [Flask](http://flask.pocoo.org/)
+   * SQLite3 (via Python's [SQLAlchemy](https://www.sqlalchemy.org/))
    * [xml.etree.ElementTree](https://docs.python.org/3/library/xml.etree.elementtree.html)
 * Frontend
    * HTML
