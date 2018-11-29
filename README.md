@@ -6,7 +6,7 @@
 
 #### Description
 
-User submits an author name or a keyword with other parameters (number of articles, number of authors to plot, date range from the day of search). Pubmed database is queried, and returned data is drawn as interactive plots.
+User submits an author name or a keyword with other parameters (number of articles, number of authors to plot, date range from the day of search). Pubmed database is queried, and interactive plots are drawn using returned data.
 
 
 <a href="https://www.youtube.com/watch?v=jXctQUTaPcY" target="_blank"><img src="pubmed_top_authors.png" alt="pubmed_authors" style="float:left" /></a>
@@ -16,21 +16,31 @@ User submits an author name or a keyword with other parameters (number of articl
 * Backend
    * Python (Flask)
    * SQLite3 (via Python's SQLALchemy)
+   * [xml.etree.ElementTree](https://docs.python.org/3/library/xml.etree.elementtree.html)
 * Frontend
    * HTML
    * CSS
-   * JavaScript (D3.js, jQuery, jQueryUI, Bootstrap, typeahead, handlebars)
+   * JavaScript
+       * [D3.js](https://d3js.org/)
+       * [jQuery](https://jquery.com/)
+       * [jQueryUI](https://jqueryui.com/)
+       * [Bootstrap](https://getbootstrap.com/)
+       * [typeahead.js](https://twitter.github.io/typeahead.js/)
+       * [Handlebars.js](https://handlebarsjs.com)
 
 #### Technical notes
 
-* Backend
+* Back-end
     * Auto-update database at regular interval (not fully tested)
-        * Scrape using Pubmed's API
-        * Extract info from XML and save it into SQLite3 database (should be replaced by PostgreSQL)
-    * Upon receipt of search request from frontend, query either SQLite3 database or [Pubmed API](https://www.ncbi.nlm.nih.gov/books/NBK25501/).
-    * Send data to frontend
-* Frontend
-    * Rearrange data
+        * Fetch data from Pubmed
+        * [ETL](https://en.wikipedia.org/wiki/Extract,_transform,_load) data
+            * E: Relevant elements (i.e. information) are  **_extracted_** using [**xml.etree.ElementTree**](https://docs.python.org/3/library/xml.etree.elementtree.html), 
+            * T: **_transformed_**  into a Python data type (e.g. set (https://docs.python.org/2/library/sets.html))
+            * L: **_loaded_** into the DB using  **SQLite**  and [SQLAlchemy](https://www.sqlalchemy.org/)
+    * Upon receipt of search request from front-end, query either SQLite3 database or [Pubmed API](https://www.ncbi.nlm.nih.gov/books/NBK25501/).
+    * Send data to front-end in JSON format
+* Front-end
+    * Reorganise data
     * Draw interactive plots using D3.js
 
 
@@ -77,7 +87,7 @@ User submits an author name or a keyword with other parameters (number of articl
     * Probability and Statistics in Python: Beginner
         * [Analyzing Movie Reviews](https://github.com/gknam/projects/blob/master/DataScience/DataQuest/Step5_ProbabilityAndStatistics/Old_1_ProbabilityAndStatisticsInPython-Beginner/project1/AnalyzingMovieReviews.ipynb)
     * Probability and Statistics in Python: Intermediate
-    	* [Winning Jeopardy](https://github.com/gknam/projects/blob/master/DataScience/DataQuest/Step5_ProbabilityAndStatistics/3_ProbabilityAndStatisticsInPython-Intermediate/project1/WinningJeopardy.ipynb)
+        * [Winning Jeopardy](https://github.com/gknam/projects/blob/master/DataScience/DataQuest/Step5_ProbabilityAndStatistics/3_ProbabilityAndStatisticsInPython-Intermediate/project1/WinningJeopardy.ipynb)
 * Step 6: Machine Learning
     * Machine Learning Fundamentals
         * [Predicting Car Prices](https://github.com/gknam/projects/blob/master/DataScience/DataQuest/Step6_MachineLearning/1_MachineLearningFundamentals/project1/PredictingCarPrices.ipynb)
