@@ -2,7 +2,9 @@
 
 ## 1. Web programming - data scraping, pipelining, visualisation
 
-### 1.1. [Pubmed's top authors](https://github.com/gknam/pubmed-top-authors)
+### 1.1. Pubmed's top authors
+
+Check out the [website](https://pubmed-top-authors-gknam.c9users.io/) and/or the [source code](https://github.com/gknam/pubmed-top-authors).
 
 #### Description
 
