@@ -49,7 +49,7 @@ User submits an author name or a keyword with other parameters (number of articl
 
 ## 2. Data science projects
 
-###  2.1. Guided projects at DataQuest
+###  2.1. [Guided projects at DataQuest](https://github.com/gknam/projects/tree/master/DataScience/DataQuest)
 
 * Step 1: Python Introduction
     * Python Programming: Beginner
