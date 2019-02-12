@@ -1,55 +1,13 @@
 # Projects
 
-## 1. Web programming - data scraping, pipelining, visualisation
+## 1. Data science
 
-### 1.1. [Pubmed's top authors](https://github.com/gknam/pubmed-top-authors)
+### 1.1. [Independent project](https://github.com/gknam/projects/blob/master/DataScience/Independent)
 
-Try the [demo](https://pubmed-top-authors-gknam.c9users.io/).
+* Data visualisation
+  * [Efficiencies of matrix search strategies according to data types](https://github.com/gknam/projects/blob/master/DataScience/DataQuest/Step7_AdvancedPythonAndComputerScience/1_DataStructuresAndAlgorithms/project1/EfficienciesOfMatrixSearchStrategies.ipynb)
 
-#### Description
-
-User submits an author name or a keyword with other parameters (number of articles, number of authors to plot, date range from the day of search). Pubmed database is queried, and interactive plots are drawn using returned data.
-
-
-<a href="https://www.youtube.com/watch?v=jXctQUTaPcY" target="_blank"><img src="pubmed_top_authors.png" alt="pubmed_authors" style="float:left" /></a>
-
-
-#### Languages, packages and framework used
-* Backend
-   * Python
-       * [Flask](http://flask.pocoo.org/)
-   * SQLite3 (via Python's [SQLAlchemy](https://www.sqlalchemy.org/))
-   * [xml.etree.ElementTree](https://docs.python.org/3/library/xml.etree.elementtree.html)
-* Frontend
-   * HTML
-   * CSS
-   * JavaScript
-       * [D3.js](https://d3js.org/)
-       * [jQuery](https://jquery.com/)
-       * [jQueryUI](https://jqueryui.com/)
-       * [Bootstrap](https://getbootstrap.com/)
-       * [typeahead.js](https://twitter.github.io/typeahead.js/)
-       * [Handlebars.js](https://handlebarsjs.com)
-
-#### Technical notes
-
-* Back-end
-    * Auto-update database at regular interval (not fully tested)
-        * Fetch data from Pubmed
-        * [ETL](https://en.wikipedia.org/wiki/Extract,_transform,_load) data
-            * E: Relevant elements (i.e. information) are  **_extracted_** using [**xml.etree.ElementTree**](https://docs.python.org/3/library/xml.etree.elementtree.html), 
-            * T: **_transformed_**  into a Python data type (e.g. [set](https://docs.python.org/2/library/sets.html))
-            * L: **_loaded_** into the DB using  **SQLite**  and [SQLAlchemy](https://www.sqlalchemy.org/)
-    * Upon receipt of search request from front-end, query either SQLite3 database or [Pubmed API](https://www.ncbi.nlm.nih.gov/books/NBK25501/).
-    * Send data to front-end in JSON format
-* Front-end
-    * Reorganise data
-    * Draw interactive plots using D3.js
-
-
-## 2. Data science projects
-
-###  2.1. [Guided projects at DataQuest](https://github.com/gknam/projects/tree/master/DataScience/DataQuest)
+### 1.2. [Guided projects at DataQuest](https://github.com/gknam/projects/tree/master/DataScience/DataQuest)
 
 Following are abbreviations for the skills demonstrated in each project.
 
@@ -92,5 +50,52 @@ Following are abbreviations for the skills demonstrated in each project.
 |[Predicting House Sale Prices](https://github.com/gknam/projects/blob/master/DataScience/DataQuest/Step6_MachineLearning/4_LinearRegressionForMachineLearning/project1/PredictingHouseSalePrices.ipynb)|ML|F_ENG|F_PRC|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|CLN|
 |[Predicting the stock market](https://github.com/gknam/projects/blob/master/DataScience/DataQuest/Step6_MachineLearning/5_MachineLearningInPython-Intermediate/project1/PredictingTheStockMarket.ipynb)|ML|&nbsp;|F_PRC|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|CLN|
 |[Predicting Bike Rentals](https://github.com/gknam/projects/blob/master/DataScience/DataQuest/Step6_MachineLearning/6_DecisionTrees/project1/PredictingBikeRentals.ipynb)|ML|&nbsp;|F_PRC|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|CLN|
-|[Efficiencies of matrix search strategies](https://github.com/gknam/projects/blob/master/DataScience/DataQuest/Step7_AdvancedPythonAndComputerScience/1_DataStructuresAndAlgorithms/project1/EfficienciesOfMatrixSearchStrategies.ipynb)|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|VIS|&nbsp;|&nbsp;|&nbsp;|
 |[Creating a Kaggle Workflow](https://github.com/gknam/projects/blob/master/DataScience/DataQuest/Step8_AdvancedTopicsInDataScience/1_KaggleFundamentals/project1/CreatingAkaggleWorkflow.ipynb)|ML|F_ENG|F_PRC|&nbsp;|&nbsp;|&nbsp;|&nbsp;|VIS|&nbsp;|&nbsp;|&nbsp;|
+
+
+
+## 2. Data engineering and visualisation
+
+### 2.1. [Pubmed's top authors](https://github.com/gknam/pubmed-top-authors)
+
+Try the [demo](https://pubmed-top-authors-gknam.c9users.io/).
+
+#### Description
+
+User submits an author name or a keyword with other parameters (number of articles, number of authors to plot, date range from the day of search). Pubmed database is queried, and interactive plots are drawn using returned data.
+
+
+<a href="https://www.youtube.com/watch?v=jXctQUTaPcY" target="_blank"><img src="pubmed_top_authors.png" alt="pubmed_authors" style="float:left" /></a>
+
+
+#### Languages, packages and framework used
+* Backend
+   * Python
+       * [Flask](http://flask.pocoo.org/)
+   * SQLite3 (via Python's [SQLAlchemy](https://www.sqlalchemy.org/))
+   * [xml.etree.ElementTree](https://docs.python.org/3/library/xml.etree.elementtree.html)
+* Frontend
+   * HTML
+   * CSS
+   * JavaScript
+       * [D3.js](https://d3js.org/)
+       * [jQuery](https://jquery.com/)
+       * [jQueryUI](https://jqueryui.com/)
+       * [Bootstrap](https://getbootstrap.com/)
+       * [typeahead.js](https://twitter.github.io/typeahead.js/)
+       * [Handlebars.js](https://handlebarsjs.com)
+
+#### Technical notes
+
+* Back-end
+    * Auto-update database at regular interval (not fully tested)
+        * Fetch data from Pubmed
+        * [ETL](https://en.wikipedia.org/wiki/Extract,_transform,_load) data
+            * E: Relevant elements (i.e. information) are  **_extracted_** using [**xml.etree.ElementTree**](https://docs.python.org/3/library/xml.etree.elementtree.html), 
+            * T: **_transformed_**  into a Python data type (e.g. [set](https://docs.python.org/2/library/sets.html))
+            * L: **_loaded_** into the DB using  **SQLite**  and [SQLAlchemy](https://www.sqlalchemy.org/)
+    * Upon receipt of search request from front-end, query either SQLite3 database or [Pubmed API](https://www.ncbi.nlm.nih.gov/books/NBK25501/).
+    * Send data to front-end in JSON format
+* Front-end
+    * Reorganise data
+    * Draw interactive plots using D3.js
