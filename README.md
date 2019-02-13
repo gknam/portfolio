@@ -1,3 +1,16 @@
+# Kie Woo Nam's portfolio
+
+**LinkedIn: [https://www.linkedin.com/in/kie-woo-nam/](https://www.linkedin.com/in/kie-woo-nam/)**
+<br>
+**Email: [simon_nam@hotmail.com](mailto:simon_nam@hotmail.com)**
+
+I have non-commercial experience in Python (2+ years), data science (1 year) and data engineering (5 months).
+
+I am looking for an entry level job in data science, data engineering or Python development.
+
+My formal training was in psychology (BSc), Neuroscience (MSc) and psychology/neuroimaging research (PhD, Postdoc).
+
+
 # Projects
 
 ## 1. Data science
