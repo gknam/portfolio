@@ -20,7 +20,7 @@ Following projects demonstrate my **non-commercial** experience in **Python** (2
 
 Following are abbreviations for the skills demonstrated in each project.
 
-* DB: Database
+* DB: Database (SQLite)
 * ANA: Data analysis
 * CLN: Data cleaning
 * F_ENG: Feature engineering
