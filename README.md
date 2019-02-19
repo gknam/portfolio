@@ -14,7 +14,7 @@ Following projects demonstrate my **non-commercial** experience in **Python** (2
 ### 1.1. [Independent project](https://github.com/gknam/projects/blob/master/DataScience/Independent)
 
 * Data visualisation
-  * [Efficiencies of matrix search strategies according to data types](https://github.com/gknam/projects/blob/master/DataScience/DataQuest/Step7_AdvancedPythonAndComputerScience/1_DataStructuresAndAlgorithms/project1/EfficienciesOfMatrixSearchStrategies.ipynb)
+  * [Efficiencies of matrix search strategies according to data types](https://github.com/gknam/projects/blob/master/DataScience/Independent/EfficienciesOfMatrixSearchStrategiesAccordingToDataTypes.ipynb)
 
 ### 1.2. [Guided projects at DataQuest](https://github.com/gknam/projects/tree/master/DataScience/DataQuest)
 
