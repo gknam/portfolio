@@ -67,7 +67,7 @@ Following are abbreviations for the skills demonstrated in each project.
 
 ### 2.1. [Pubmed's top authors](https://github.com/gknam/pubmed-top-authors)
 
-Try the [demo](https://pubmed-top-authors-gknam.c9users.io/).
+Try the [demo](http://52.211.136.137:8080/).
 
 #### Description
 
