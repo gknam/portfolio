@@ -3,17 +3,12 @@
 
 Following projects demonstrate my **non-commercial** experience in **Python** (2+ years), **data science** (1 year) and **data engineering** (5 months).
 
-I am looking for an entry level job or internship in **data engineering, software engineering** or **data science.** Please contact me via [LinkedIn](https://www.linkedin.com/in/kie-woo-nam/) or [email](mailto:simon_nam@hotmail.com) to discuss a potential role.
-
-
-
+I am looking for a mid-junior role or internship in **data engineering, software engineering** or **data science.** Please contact me via [LinkedIn](https://www.linkedin.com/in/kie-woo-nam/) or [email](mailto:simon_nam@hotmail.com) to discuss a potential role.
 
 # Projects
 ## 1. Data engineering and visualisation
 
 ### 1.1. [Pubmed's top authors](https://github.com/gknam/pubmed-top-authors)
-
-Try the [demo](http://52.211.136.137:8080).
 
 #### Description
 
